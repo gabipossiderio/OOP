@@ -33,6 +33,6 @@ class GasPump:
         return fueled
 
 
-Abastece = GasPump('Álcool', 7, 50)
+v1 = GasPump('Álcool', 7, 50)
 print(Abastece.refill_value(60))
 print(vars(Abastece))
